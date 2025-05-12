@@ -20,9 +20,6 @@ namespace Presentation.Controllers
             _customerRespository = customerRepository;
             _orderRepository = orderRepository;
         }
-
-
-
         
         [HttpPost("guardar")]
         public  IActionResult CrearPedido([FromBody] Order OrderDatos)

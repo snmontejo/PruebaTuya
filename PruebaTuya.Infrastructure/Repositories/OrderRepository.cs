@@ -16,7 +16,7 @@ namespace PruebaTuya.Infrastructure.Repositories
         public Order GetById(int id)
         {
             return _context.Orders
-                           .Find(id); // Carga relacionada si aplica;
+                           .Find(id); 
         }
         public OrderRepository(AppDbContext context)
         {

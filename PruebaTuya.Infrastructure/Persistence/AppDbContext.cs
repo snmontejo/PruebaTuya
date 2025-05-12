@@ -37,10 +37,6 @@ namespace PruebaTuya.Infrastructure.Persistence
                 entity.HasKey(o => o.Id);
                 entity.Property(o => o.OrderDate).IsRequired();
 
-                //// Relación: un cliente tiene muchos pedidos
-                //entity.HasOne(o => o.)
-                //      .WithMany(c => c.Orders)
-                //      .HasForeignKey(o => o.CustomerId);
                 
             });
          

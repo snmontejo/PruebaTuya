@@ -22,7 +22,7 @@ namespace PruebaTuya.Infrastructure.Repositories
         public Customer GetById(int id)
         {
             return _context.Customers
-                           .Find(id); // Carga relacionada si aplica;
+                           .Find(id); 
         }
 
         public IEnumerable<Customer> GetAll()

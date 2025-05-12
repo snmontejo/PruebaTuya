@@ -10,10 +10,8 @@ namespace PruebaTuya.Domain.Interfaces
     public interface IOrderRepository
     {
         Order? GetById(int orderId);
-        //IEnumerable<Order> GetByCustomerId(Guid customerId);
         void Save(Order order);
         void Update(Order order);
-        //void Delete(Guid orderId);
         
     }
 }
